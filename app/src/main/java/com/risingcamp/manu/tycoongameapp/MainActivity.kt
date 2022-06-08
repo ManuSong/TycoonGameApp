@@ -90,7 +90,7 @@ class MainActivity : AppCompatActivity() {
                     }
 
                 }
-
+// 클릭을 눌러서 사라져도 계속 진행되는 오류 발생 이걸 어떻게 해결해야될까 고민해보자~! 각각? for 구문에 넣어줘야 될까? 아니면 그냥 If 구문으로 만들 수 있을까 고민해보자
                 for ((index, frame) in framArray.withIndex()){
 
                     frame.setOnClickListener {
@@ -116,7 +116,7 @@ class MainActivity : AppCompatActivity() {
                             fireArray[index].visibility = View.VISIBLE
                         }, 10000)
 
-                        
+
 
 
                     }
