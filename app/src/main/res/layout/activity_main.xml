@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+        <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:columnCount="3"
+        android:rowCount="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/bung_frame1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/bung_finish_01"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"/>
+
+        <ImageView
+            android:id="@+id/bung_frame2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/bung_finish_01"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"/>
+
+        <ImageView
+            android:id="@+id/bung_frame3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/bung_finish_01"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"/>
+
+        <ImageView
+            android:id="@+id/bung_frame4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/bung_finish_01"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"/>
+
+        <ImageView
+            android:id="@+id/bung_frame5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/bung_finish_01"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"/>
+
+        <ImageView
+            android:id="@+id/bung_frame6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/bung_finish_01"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"/>
+
+        <ImageView
+            android:id="@+id/bung_frame7"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/bung_finish_01"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"/>
+
+        <ImageView
+            android:id="@+id/bung_frame8"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/bung_finish_01"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"/>
+
+        <ImageView
+            android:id="@+id/bung_frame9"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/bung_finish_01"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"/>
+
+
+    </GridLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:columnCount="3"
+            android:rowCount="3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageView
+                android:id="@+id/bung_make1"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/bung_full_img_trans"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:id="@+id/bung_make2"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/bung_full_img_trans"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:id="@+id/bung_make3"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/bung_full_img_trans"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:id="@+id/bung_make4"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/bung_full_img_trans"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:id="@+id/bung_make5"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/bung_full_img_trans"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:id="@+id/bung_make6"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/bung_full_img_trans"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:id="@+id/bung_make7"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/bung_full_img_trans"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:id="@+id/bung_make8"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/bung_full_img_trans"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:id="@+id/bung_make9"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/bung_full_img_trans"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:columnCount="3"
+            android:rowCount="3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageView
+                android:id="@+id/bung_ready1"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/bung_ready_trans"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:id="@+id/bung_ready2"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/bung_ready_trans"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:id="@+id/bung_ready3"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/bung_ready_trans"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:id="@+id/bung_ready4"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/bung_ready_trans"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:id="@+id/bung_ready5"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/bung_ready_trans"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:id="@+id/bung_ready6"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/bung_ready_trans"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:id="@+id/bung_ready7"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/bung_ready_trans"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:id="@+id/bung_ready8"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/bung_ready_trans"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:id="@+id/bung_ready9"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/bung_ready_trans"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+
+        </GridLayout>
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:columnCount="3"
+            android:rowCount="3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageView
+                android:id="@+id/bung_finish1"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/bung_finish_img_trans"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:id="@+id/bung_finish2"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/bung_finish_img_trans"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:id="@+id/bung_finish3"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/bung_finish_img_trans"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:id="@+id/bung_finish4"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/bung_finish_img_trans"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:id="@+id/bung_finish5"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/bung_finish_img_trans"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:id="@+id/bung_finish6"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/bung_finish_img_trans"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:id="@+id/bung_finish7"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/bung_finish_img_trans"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:id="@+id/bung_finish8"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/bung_finish_img_trans"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:id="@+id/bung_finish9"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/bung_finish_img_trans"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:columnCount="3"
+            android:rowCount="3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageView
+                android:id="@+id/bung_fire1"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/bung_end_trans"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:id="@+id/bung_fire2"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/bung_end_trans"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:id="@+id/bung_fire3"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/bung_end_trans"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:id="@+id/bung_fire4"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/bung_end_trans"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:id="@+id/bung_fire5"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/bung_end_trans"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:id="@+id/bung_fire6"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/bung_end_trans"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:id="@+id/bung_fire7"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/bung_end_trans"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:id="@+id/bung_fire8"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/bung_end_trans"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:id="@+id/bung_fire9"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/bung_end_trans"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+
+        </GridLayout>
+
+
+    </FrameLayout>
+
+
+    <ImageButton
+        android:id="@+id/start_btn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/play_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="8dp"/>
+
+    <ImageButton
+        android:id="@+id/pause_btn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/pause_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/game_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score : 20"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
