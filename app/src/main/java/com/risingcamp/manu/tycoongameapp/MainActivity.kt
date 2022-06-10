@@ -42,6 +42,8 @@ class MainActivity : AppCompatActivity() {
         binding.gameScore.text = "Scroe : " + score
         binding.gameTimer.text = "Timer : " + time
 
+
+
         framArray = arrayListOf(
             binding.bungFrame1, binding.bungFrame2, binding.bungFrame3, binding.bungFrame4, binding.bungFrame5, binding.bungFrame6, binding.bungFrame7, binding.bungFrame8, binding.bungFrame9
         )
@@ -100,7 +102,7 @@ class MainActivity : AppCompatActivity() {
 
         }
 
-        object : CountDownTimer(40000,1000){
+        object : CountDownTimer(10000,1000){
             override fun onTick(millisUntilFinished: Long) {
                 binding.gameTimer.text = "Time : " + millisUntilFinished / 1000
 
@@ -205,25 +207,23 @@ class MainActivity : AppCompatActivity() {
         Thread(){
             handler.post {
                 val random = Random()
-                var randomorder = random.nextInt(9 - 1)
+                var index = random.nextInt(9 - 1)
 
 
                 binding.chacFrame.visibility = View.INVISIBLE
 
 
-                    handler.postDelayed({
-                        if (binding.chacFrame.visibility == View.INVISIBLE){
+                handler.postDelayed({
+                    if (binding.chacFrame.visibility == View.INVISIBLE){
                             binding.chacFrame.visibility = View.VISIBLE
-                            binding.orderText.text = "붕어빵 ${randomorder}개 주세요!"}
+                            binding.orderText.text = "붕어빵 $index 개 주세요!"}
                     }, 2500)
 
-                    handler.postDelayed({
-                        if (binding.chacFrame.visibility == View.VISIBLE){
-                            binding.chacFrame.visibility = View.INVISIBLE
-                        }
-                    },  8000)
-
-
+                handler.postDelayed({
+                    if (binding.chacFrame.visibility == View.VISIBLE){
+                        binding.chacFrame.visibility = View.INVISIBLE
+                    }
+                },  8500)
 
 
 
@@ -253,6 +253,13 @@ class MainActivity : AppCompatActivity() {
 
         binding.gameScore.text = "Score : " + score
     }
+
+    override fun onRestart() {
+        super.onRestart()
+        mediaPlayer?.start()
+    }
+
+
 
 
     }
