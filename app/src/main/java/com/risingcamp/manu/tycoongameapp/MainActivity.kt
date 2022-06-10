@@ -14,7 +14,9 @@ import android.view.View
 import android.widget.ImageView
 import android.widget.MediaController
 import com.risingcamp.manu.tycoongameapp.databinding.ActivityMainBinding
+import java.util.*
 import java.util.concurrent.DelayQueue
+import kotlin.collections.ArrayList
 
 class MainActivity : AppCompatActivity() {
 
@@ -98,7 +100,7 @@ class MainActivity : AppCompatActivity() {
 
         }
 
-        object : CountDownTimer(10000,1000){
+        object : CountDownTimer(40000,1000){
             override fun onTick(millisUntilFinished: Long) {
                 binding.gameTimer.text = "Time : " + millisUntilFinished / 1000
 
@@ -139,7 +141,7 @@ class MainActivity : AppCompatActivity() {
 
 
 
-// 클릭을 눌러서 사라져도 계속 진행되는 오류 발생 이걸 어떻게 해결해야될까 고민해보자~! 각각? for 구문에 넣어줘야 될까? 아니면 그냥 If 구문으로 만들 수 있을까 고민해보자
+                //if 구문을 handler안에다가 넣어서 사용하면 if 구문 정상적으로 작동한다.
                 for ((index, frame) in framArray.withIndex()){
 
                     frame.setOnClickListener {
@@ -196,7 +198,41 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         }.start()
+
+
+
+
+        Thread(){
+            handler.post {
+                val random = Random()
+                var randomorder = random.nextInt(9 - 1)
+
+
+                binding.chacFrame.visibility = View.INVISIBLE
+
+
+                    handler.postDelayed({
+                        if (binding.chacFrame.visibility == View.INVISIBLE){
+                            binding.chacFrame.visibility = View.VISIBLE
+                            binding.orderText.text = "붕어빵 ${randomorder}개 주세요!"}
+                    }, 2500)
+
+                    handler.postDelayed({
+                        if (binding.chacFrame.visibility == View.VISIBLE){
+                            binding.chacFrame.visibility = View.INVISIBLE
+                        }
+                    },  8000)
+
+
+
+
+
+            }
+
+        }.start()
+
         }
+
 
 
     override fun onStop() {
